@@ -1,14 +1,14 @@
 var student1 = {
-    firstName: "Kalkidan",
-    lastName: "Demes",
+    firstName: "Emeka",
+    lastName: "Okoye",
     age: 25,
-    location: "Ethiopia"
+    location: "Nigeria"
 };
 var student2 = {
-    firstName: "Tester",
+    firstName: "Vincent",
     lastName: "unknown",
     age: 30,
-    location: "Kenya"
+    location: "UK"
 };
 var studentsList = [student1, student2];
 var body = document.getElementsByTagName("body")[0];
