@@ -1,24 +1,23 @@
 interface Student {
-  firstName: string,
-  lastName: string,
-  age: Number,
-  location: string
+    firstName: string,
+    lastName: string,
+    age: Number,
+    location: string
 }
 
 const student1: Student = {
-  firstName: "Emeka",
-  lastName: "Okoye",
-  age: 25,
-  location: "Nigeria"
+    firstName: "Kalkidan",
+    lastName: "Demes",
+    age: 25,
+    location: "Ethiopia"
 }
 
 const student2: Student = {
-  firstName: "Vincent",
-  lastName: "unknown",
-  age: 30,
-  location: "UK"
+    firstName: "Tester",
+    lastName: "unknown",
+    age: 30,
+    location: "Kenya"
 }
-
 
 const studentsList: Array<Student> = [ student1, student2 ];
 
@@ -35,13 +34,14 @@ cell2Head.innerHTML = "location";
 table.append(thead);
 
 studentsList.forEach((student) => {
-  const row: HTMLTableRowElement = tbody.insertRow(0);
-  const cell1: HTMLTableCellElement = row.insertCell(0);
-  const cell2: HTMLTableCellElement = row.insertCell(1);
+    const row: HTMLTableRowElement = tbody.insertRow(0);
+    const cell1: HTMLTableCellElement = row.insertCell(0);
+    const cell2: HTMLTableCellElement = row.insertCell(1);
 
-  cell1.innerHTML = student.firstName;
-  cell2.innerHTML = student.location;
+    cell1.innerHTML = student.firstName;
+    cell2.innerHTML = student.location;
 });
-
+  
 table.append(tbody);
 body.append(table);
+

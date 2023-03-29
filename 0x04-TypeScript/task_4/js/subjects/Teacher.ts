@@ -3,4 +3,4 @@ namespace Subjects {
       firstName: string;
       lastName: string;
     }
-  }
+}

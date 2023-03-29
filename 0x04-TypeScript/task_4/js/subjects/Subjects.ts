@@ -5,4 +5,4 @@ namespace Subjects {
         this.teacher = teacher;
       };
     }
-  }
+}

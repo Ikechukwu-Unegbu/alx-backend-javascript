@@ -10,4 +10,4 @@ namespace Subjects {
         return this.teacher.experienceTeachingReact > 0 ? `Available Teacher: ${this.teacher.firstName}` : 'No available teacher';
       }
     }
-  }
+}
